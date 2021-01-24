@@ -3,7 +3,7 @@
 
 
 social:
-  - {icon: 'github', type: "brand", link: 'https://www.github.com/ozkaberktug'}
+  - {icon: 'github', type: "brand", link: 'https://www.github.com/spaceymonk'}
   - {icon: 'twitter', type: "brand", link: 'https://twitter.com/spaceymonk'}
   - {icon: 'linkedin', type: "brand", link: 'https://www.linkedin.com/in/bkozkan/'}
   
