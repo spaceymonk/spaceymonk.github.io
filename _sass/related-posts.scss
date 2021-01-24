@@ -1,0 +1,26 @@
+.related{
+    h5{
+        color: $level-2;
+        font-style: italic;
+    }
+    h6{
+        color:  #607d8b;
+        margin-top: 0px;
+        text-align: left;
+        font-size: 1rem;
+        a {
+            color: inherit;
+        }
+    }
+    .related-posts{
+        opacity: 0.8;
+        margin-right: 25px;
+    }
+    .related-posts:hover{
+        opacity: 1;
+        // font-style: italic;
+    }
+    padding-top: 0;
+    padding-bottom: 15px;
+    margin:0 auto;
+}

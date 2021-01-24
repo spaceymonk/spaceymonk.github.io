@@ -1,0 +1,38 @@
+#Google Analytics
+analytics-id: #leave blank to not use Analytics
+
+#Subtitle
+subtitle:
+  active: true
+  text: a blog in cyberspace
+
+#Nav 
+nav:
+  pages:
+    active: true
+  social:
+    active: true
+
+#Featured images in homepage
+featured-img:
+  active: false
+
+#Show categories at the end of posts
+categories:
+  active: true
+
+#Show date and read time under the post title
+date-under-post:
+  active: true
+
+#Use MathJAX
+mathjax:
+  active: true
+
+#Show related posts based on categories
+related-posts:
+  active: true
+  title: "Related Posts"
+
+#Comments
+comments: true

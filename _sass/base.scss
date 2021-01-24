@@ -1,0 +1,126 @@
+//Colors
+$base: #a2a2a2;
+$light-grey: #ebebeb1f;
+
+$black:   #111111;
+$level-0: #222831c9;
+$level-1: #393e46;
+$level-2: #00adb5;
+$level-3: #eeeeee;
+$headings: #a1887f;
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+  background-color: $black;
+  color: $level-3;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    background-color: $level-0;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.task-list{
+  list-style: none;
+}
+
+//Alerts
+.alert{
+  padding: 20px;
+  border-radius: 0 4px 4px 0;
+  color: #fff;
+  display: block;
+  font-size: larger;
+}
+
+.y{
+  background-color: hsl(48, 66%, 57%);
+  border-left: 7px solid #dc900e;
+}
+
+.g{
+  background-color: hsl(141, 53%, 53%);
+  border-left: 7px solid #55ab6f;
+}
+
+.r{
+  background-color: hsl(348, 100%, 55%);
+  border-left: 7px solid #cb2020;
+}
+//End Alerts
+
+//Blockquote
+blockquote {
+  border-left: .25em solid #dfe2e5;
+  color: #bbbbbb;
+  padding: 0 1em;
+  cite{
+    display: inline-block;
+    margin-top: 50px;
+    cite::before{
+      content: "- ";
+      margin-left: 10px;
+    }
+  }
+}
+//End Blockquote
+
+//MathJAX
+.MathJax_Display{
+  .MathJax {
+  font-size: 1.2rem;
+  }
+}
+//End MathJAX
+
+//ToC
+#markdown-toc::before {
+  content: "Table of Contents";
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
+
+#markdown-toc {
+  // border: 1px solid #aaa;
+  // border-radius: 10px;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0px 10px 15px 10px;
+  list-style: disc;
+  list-style-position: inside;
+  display: inline-block;
+  // background-color: $level-1;
+  line-height: 25px;
+  li{
+    a{
+      text-decoration: none;
+    }
+  }
+  ul{
+    list-style: circle;
+  }
+}
+//End ToC
+
+//Archive
+.archive-link{
+  text-decoration: none;
+  color: black;
+  // font-style: italic;
+  font-size: 1.25rem;
+  color: $level-2;
+}
+
+//End Archive
