@@ -3,6 +3,8 @@ layout: default
 title: Archive
 ---
 
+{{ content }}
+
 {% assign postsByDate =
     site.posts | group_by_exp:"post", "post.date | date: '%B %Y'" %}
 {% for year in postsByDate %}

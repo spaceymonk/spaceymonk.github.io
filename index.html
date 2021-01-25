@@ -3,6 +3,8 @@ layout: home
 title: Home
 ---
 
+<!-- if there are no post -->
+{% unless paginator.posts %}
 <p style="text-align: center;">
     <span style="font-size: 32px;">Welcome to my blog!</span> <br>
     <span style="font-size: 24px;">Well, looks like there is nothing to see here, at the moment...</span> <br>
@@ -10,3 +12,4 @@ title: Home
     <span style="font-size: 12px">at some point... </span> <br>
     <span style="font-size: 8px">I hope :/</span>
 </p>
+{% endunless %}
