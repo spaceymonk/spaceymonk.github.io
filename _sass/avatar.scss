@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600");
+
+// color map
+$COLOR: (
+	prime: #ec3bfc,
+	dark: #3c3c3c,
+	grey: #dddfe6,
+	white: #f9f9f9
+);
+
+// color function
+@function color($color) {
+	@return map-get($COLOR, $color);
+}
+
+.avatar-container {
+	margin: auto 20%;
+	font-family: "Poppins", Arial, san-serif;
+	line-height: 1.4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+// styles
+.avatar-card {
+	background: color(dark);
+	background-size: contain;
+	border-radius: 10px;
+	box-shadow: 0 10px 30px -5px rgba(color(white), 0.2);
+	text-align: center;
+	padding: 30px 60px;
+	img {
+		background-color: color(grey);
+        max-width: 100%;
+        height: auto;
+		border-radius: 50%;
+		margin: auto auto 15px;
+		display: block;
+	}
+	h1 {
+		font-size: 1.5rem;
+		margin: 10px auto 10px;
+        letter-spacing: 1px;
+        max-width: 100%;
+	}
+	h2 {
+		font-size: 1.10rem;
+		font-weight: 300;
+		margin: 10px auto;
+		color: darken(color(grey), 15);
+    }
+    a {
+        text-decoration: none;
+        color: color(prime);
+    }
+}

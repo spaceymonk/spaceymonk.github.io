@@ -1,4 +1,4 @@
-@media (max-width: 768px){
+@media (max-width: 769px){
     html{
         overflow-y: auto;
     }
@@ -48,5 +48,8 @@
     pre .highlight{
         padding-left: 8px;
         padding-right: 0px;
+    }
+    .avatar-container{
+        margin: auto 5%;
     }
 }

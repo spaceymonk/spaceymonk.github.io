@@ -3,6 +3,8 @@ layout: default
 title: About
 ---
 
+{% include avatar.html %}  
+
 # About me
 Hello there!  
 My name is Berktuğ Kaan Özkan. I live in Turkey, and I am a computer science student at [ITU](https://www.itu.edu.tr/en/homepage). I like playing billard, going gym, cycling and drawing. I code in C++, Java and Python also I am interested in machine learning, blockchain and Linux.
@@ -21,6 +23,6 @@ This is the place where I share about topics that I found important ***to myself
 
 Oh, if you are wandering; *Why I chose dark theme?* Let me put it this way: I am **not** a web developer or *let's say* UI/UX designer in general. When I doing designer stuff I try to make things look ok and if it looks ok, then my job is done. But I know one thing for sure, if you are living in 21st century, dark theme is a must! According to [CommonSense](https://www.commonsensemedia.org/)'s [2016 survey](https://www.commonsensemedia.org/sites/default/files/uploads/research/census_researchreport.pdf) average person spends 6 hours a day on looking at screens. Eye hurting, white screens.. I hope you got the idea.
 
-{: style="text-align: right" }
+{: style="text-align: right" }  
 *Berktuğ Kaan Özkan*  
 *26/01/2021*
