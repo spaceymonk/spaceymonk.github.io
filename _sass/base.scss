@@ -23,7 +23,7 @@ html{
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 700px;
+    width: 750px;
     background-color: $level-0;
     border-radius: 25px;
     padding: 25px;
@@ -82,37 +82,6 @@ blockquote {
 }
 //End MathJAX
 
-//ToC
-#markdown-toc::before {
-  content: "Table of Contents";
-  font-size: 1.2rem;
-  font-weight: bold;
-
-}
-
-#markdown-toc {
-  // border: 1px solid #aaa;
-  // border-radius: 10px;
-  width: 100%;
-  white-space: nowrap;
-  overflow-x: auto;
-  overflow-y: hidden;
-  padding: 0px 10px 15px 10px;
-  list-style: disc;
-  list-style-position: inside;
-  display: inline-block;
-  // background-color: $level-1;
-  line-height: 25px;
-  li{
-    a{
-      text-decoration: none;
-    }
-  }
-  ul{
-    list-style: circle;
-  }
-}
-//End ToC
 
 //Archive
 .archive-link{

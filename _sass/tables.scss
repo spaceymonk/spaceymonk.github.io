@@ -13,4 +13,10 @@ table{
     width: 100%;
     text-align: left;
     font-size: large;
+    border-top: 1px solid dimgray;
+    border-bottom: 1px solid dimgray;
+}
+
+tr {
+    border-bottom: 1px solid dimgray;
 }
