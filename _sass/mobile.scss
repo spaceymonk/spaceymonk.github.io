@@ -43,7 +43,7 @@
       }
     div .highlight{
         padding-left: 8px;
-        padding-right: 0px;
+        padding-right: 8px;
     }
     pre .highlight{
         padding-left: 8px;
@@ -51,5 +51,8 @@
     }
     .avatar-container{
         margin: auto 5%;
+    }
+    table {
+        width: 500px;
     }
 }

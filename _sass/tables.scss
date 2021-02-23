@@ -10,8 +10,8 @@ th {
 
 table{
     border-collapse: collapse;
-    width: 100%;
     text-align: left;
+    width: 100%;
     font-size: large;
     border-top: 1px solid dimgray;
     border-bottom: 1px solid dimgray;
@@ -19,4 +19,14 @@ table{
 
 tr {
     border-bottom: 1px solid dimgray;
+}
+tr:nth-child(even) {
+    background-color: rgba(#696979,.15);
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    table{
+        width: 700px;
+    }
 }

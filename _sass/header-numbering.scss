@@ -1,0 +1,53 @@
+// https://2ality.com/2012/01/numbering-headingshtml.html
+// code taken and modified
+
+body {
+    counter-reset: h1counter;
+}
+
+.post-container {
+    h1{
+        counter-reset: h2counter;
+    }
+    h2 {
+        counter-reset: h3counter;
+    }
+    h3 {
+        counter-reset: h4counter;
+    }
+    h4 {
+        counter-reset: h5counter;
+    }
+    h5 {
+        counter-reset: h6counter;
+    }
+    h1:before {
+        content: counter(h1counter) ".\0000a0";
+        counter-increment: h1counter;
+    }
+    h2:before {
+        counter-increment: h2counter;
+        content: counter(h1counter) "." counter(h2counter) ".\0000a0";
+    }
+    h3:before {
+        counter-increment: h3counter;
+        content: counter(h1counter) "." counter(h2counter) "." counter(h3counter) ".\0000a0";
+    }
+    h4:before {
+        counter-increment: h4counter;
+        content: counter(h1counter) "." counter(h2counter) "." counter(h3counter) "." counter(h4counter) ".\0000a0";
+    }
+    h5:before {
+        counter-increment: h5counter;
+        content: counter(h1counter) "." counter(h2counter) "." counter(h3counter) "." counter(h4counter) "." counter(h5counter) ".\0000a0";
+    }
+    h6:before {
+        counter-increment: h6counter;
+        content: counter(h1counter) "." counter(h2counter) "." counter(h3counter) "." counter(h4counter) "." counter(h5counter) "." counter(h6counter) ".\0000a0";
+    }
+    
+    #post-title:before {
+        content: none;
+        counter-increment: none;
+    }
+}
