@@ -44,12 +44,14 @@ $COLOR: (
 		margin: 10px auto 10px;
         letter-spacing: 1px;
         max-width: 100%;
+		text-align: inherit;
 	}
 	h2 {
 		font-size: 1.10rem;
 		font-weight: 300;
 		margin: 10px auto;
 		color: darken(color(grey), 15);
+		text-align: inherit;
     }
     a {
         text-decoration: none;
