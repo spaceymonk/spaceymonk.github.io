@@ -6,6 +6,6 @@ social:
   - {icon: 'github', type: "brand", link: 'https://www.github.com/spaceymonk'}
   - {icon: 'twitter', type: "brand", link: 'https://twitter.com/spaceymonk'}
   - {icon: 'linkedin', type: "brand", link: 'https://www.linkedin.com/in/bkozkan/'}
-  - {icon: 'instagram', type: "brand", link: 'https://www.instagram.com/ozkaberktug/'}
+  - {icon: 'instagram', type: "brand", link: 'https://www.instagram.com/spacey.monk/'}
   - {icon: 'envelope', type: "solid", link: 'mailto:b.kaan.ozkan@gmail.com'}
   - {icon: 'rss', type: "solid", link: "/feed.xml"}
