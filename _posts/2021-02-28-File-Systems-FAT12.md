@@ -2,6 +2,7 @@
 title: "File Systems: FAT12"
 layout: post
 categories: [File Systems, FAT]
+customexcerpt: "In this post I will share how plain FAT12 file system, meaning without the long file name and directory support, works with all necessary information (equations, limits etc.)."
 ---
 
 In this post I will share how plain FAT12 file system, meaning without the long
