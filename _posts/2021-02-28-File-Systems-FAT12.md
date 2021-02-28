@@ -84,7 +84,7 @@ In the below figure we can see it more clearly:
 
 <div class="img-wrapper" markdown="block">
 
-![FAT12 layout](/assets/img/2021-02-12/fat12-layout.png)
+![FAT12 layout](/assets/img/2021-02-28/fat12-layout.png)
 
 </div>
 
