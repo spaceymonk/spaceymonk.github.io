@@ -303,7 +303,7 @@ links:
   <td><code>0x00</code></td>
   <td>11</td>
   <td>Name of the file in short format.
-      Explained in the <a href="#short-file-names">next section</a>.<br>
+      Explained in the <a href="#short-file-names-sfn">next section</a>.<br>
       The first byte is significant and can have the following special values:
       <table style="width: calc(100% - 10px); margin: 10px">
       <tr>
