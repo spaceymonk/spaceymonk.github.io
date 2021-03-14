@@ -33,7 +33,7 @@ they might choose to use decentralized social platforms, apps to accomplish
 this.
 
 Also, I share my drawings and photographs on my
-[Instagram](https://www.instagram.com/ozkaberktug/)! You can check it, if you
+[Instagram](https://www.instagram.com/spacey.monk/)! You can check it, if you
 like.
 
 
