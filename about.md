@@ -8,7 +8,7 @@ title: About
 # About me
 Hello there!  
 My name is Berktuğ Kaan Özkan. I live in Turkey, and I am a computer science
-student at [ITU](https://www.itu.edu.tr/en/homepage). I like playing billard,
+student at [ITU](https://www.itu.edu.tr/en/homepage). I like playing billiard,
 going gym, cycling and drawing. I code in C++, Java and Python also I am
 interested in machine learning, blockchain and Linux.
 
