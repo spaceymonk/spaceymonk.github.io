@@ -376,13 +376,8 @@ links:
 </tr>
 <tr>
   <td><code>0x0C</code></td>
-  <td>1</td>
+  <td>2</td>
   <td>Reserved.</td>
-</tr>
-<tr>
-  <td><code>0x0D</code></td>
-  <td>1</td>
-  <td>Creation time resolution: 10ms units, values from 0 to 199.</td>
 </tr>
 <tr>
   <td><code>0x0E</code></td>
