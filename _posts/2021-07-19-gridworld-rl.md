@@ -353,7 +353,11 @@ agent.display()
 
 The output of the program will be:
 
+<div class="img-wrapper" markdown="block">
+
 ![Training output](/assets/img/2021-07-19/training_output.jpg)
+
+</div>
 
 If you call `agent.play()` you can watch the playthrough. The blue arrow means
 the desired action for the next state and the green arrow is the resulted
@@ -371,4 +375,8 @@ optimal policy you would see it would select actions that will keep the game
 running. Meaning it won't go near to the green and red tiles which eventually
 ends the game:
 
+<div class="img-wrapper" markdown="block">
+
 ![Positive rewards](/assets/img/2021-07-19/positive_reward.jpg)
+
+</div>
