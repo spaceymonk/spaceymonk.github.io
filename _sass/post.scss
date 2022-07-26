@@ -28,6 +28,14 @@ li.post{
     }
 }
 
+.img-wrapper.no-scroll {
+  overflow-x: hidden;
+  img {
+    max-width: 100%;
+    background-size: cover;
+  }
+}
+
 
 .post-container{
 
